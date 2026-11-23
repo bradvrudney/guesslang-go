@@ -1,0 +1,4 @@
+Meeting notes:
+- we need to ship the build
+- Jamie will test it (maybe)
+See you at 10:30.

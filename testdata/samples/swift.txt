@@ -1,0 +1,6 @@
+import Foundation
+struct User {
+    let name: String
+}
+let u = User(name: "a")
+print(u.name)

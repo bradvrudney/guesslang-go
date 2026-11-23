@@ -1,0 +1,4 @@
+$files = Get-ChildItem -Path . -Filter *.txt
+foreach ($f in $files) {
+    Write-Host $f.Name
+}

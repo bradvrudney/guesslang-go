@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+for f in *.txt; do
+  echo "$f"
+done

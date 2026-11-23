@@ -1,0 +1,4 @@
+<?php
+$a = 1;
+echo 'hi ' . $a;
+function f($x) { return $x + 1; }
