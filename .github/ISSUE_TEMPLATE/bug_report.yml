@@ -1,0 +1,25 @@
+name: Bug report
+description: The answer is wrong, differs from the original guesslang, or the package fails.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: The text you gave it
+      description: The smallest text that shows the problem. Only share text you may publish.
+      render: text
+  - type: input
+    id: original
+    attributes:
+      label: What the original guesslang answers for it (if you could run it)
+  - type: input
+    id: version
+    attributes:
+      label: guesslang-go version and Go version
+      placeholder: v0.1.0, go1.23

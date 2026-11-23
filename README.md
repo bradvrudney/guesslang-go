@@ -1,5 +1,9 @@
 # guesslang-go
 
+[![CI](https://github.com/bradvrudney/guesslang-go/actions/workflows/ci.yml/badge.svg)](https://github.com/bradvrudney/guesslang-go/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bradvrudney/guesslang-go.svg)](https://pkg.go.dev/github.com/bradvrudney/guesslang-go)
+[![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+
 Guess the programming language of a piece of source code, in pure Go.
 
 A port of the inference half of [guesslang](https://github.com/yoeo/guesslang)
@@ -47,6 +51,13 @@ every sample to agree within 0.0001; the largest difference is about 2e-7.
 
 `tools/regenerate.sh` rebuilds the embedded model and the reference answers
 from the original, in Docker.
+
+## Contributing
+
+Bug reports, tests and documentation are welcome: see
+[CONTRIBUTING.md](CONTRIBUTING.md). Everyone taking part follows the
+[Code of Conduct](CODE_OF_CONDUCT.md). Security problems go to
+[SECURITY.md](SECURITY.md).
 
 ## Licence
 

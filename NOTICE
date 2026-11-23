@@ -1,0 +1,10 @@
+guesslang-go contains, or depends on, the following work.
+
+guesslang (https://github.com/yoeo/guesslang)
+  The trained model in model/model.bin and the language list in
+  model/languages.json are taken from guesslang 2.2.1.
+  Copyright (c) 2021 Y. SOMDA. MIT License.
+
+go-farm (https://github.com/dgryski/go-farm)
+  A Go port of Google's FarmHash, used to hash tokens exactly as TensorFlow
+  does. Copyright (c) 2014-2017 Damian Gryski. MIT License.

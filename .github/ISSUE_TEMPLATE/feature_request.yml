@@ -1,0 +1,14 @@
+name: Feature request
+description: Something the package should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: use
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the package to offer?
